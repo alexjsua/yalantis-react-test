@@ -1,0 +1,23 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 200px 100px;
+}
+
+.length-0, .length-1 .length-2{
+    background: gray;
+}
+
+.length-3, .length-4, .length-5, .length-6 {
+    background: blue;
+}
+
+.length-7, .length-8, .length-9, .length-10 {
+    background: green;
+}
+
+.length-11 {
+    background: red; 
+}
